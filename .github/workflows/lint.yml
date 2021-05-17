@@ -5,18 +5,11 @@ on:
   pull_request:
     branches: [master, main]
 jobs:
-  eslint:
+  lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: stefanoeb/eslint-action@1.0.2
-        with:
-          files: src/
-# jobs:
-#   lint:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: Install modules
-#         run: npm install
-#       - name: Run ESLint
-#         run: eslint ./src --ext .js
+      - uses: actions/checkout@v2
+      - name: Install modules
+        run: yarn
+      - name: Run ESLint
+        run: eslint ./src --ext .js
