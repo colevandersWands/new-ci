@@ -1,5 +1,5 @@
 {
-  "plugins": ["jsdoc", "spellcheck"],
+  "plugins": ["jsdoc"],
   "parserOptions": {
     "sourceType": "module",
     "ecmaVersion": 12
@@ -28,6 +28,7 @@
     "no-confusing-arrow": 1,
     "vars-on-top": 0,
     "no-plusplus": 0,
+    "no-warning-comments": 1,
 
     "jsdoc/check-alignment": 1,
     "jsdoc/check-indentation": 1,

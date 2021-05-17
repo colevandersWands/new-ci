@@ -44,6 +44,7 @@ about: A template PR for contributing to the /logic folder
   - [ ] Side-effects are tested, if necessary
   - [ ] Tricky edge cases are tested (extra credit)
 - [ ] spelling is clear and understandable
+- [ ] no unused, commented code
 
 ## It Does Not
 
