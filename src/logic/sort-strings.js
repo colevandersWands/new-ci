@@ -14,11 +14,11 @@
  * @returns {string[]} a new sorted array containing the same strings as toSort
  */
 export const sortStrings = (toSort = [], sortType = 'oldest') => {
-  var toReturn = [...toSort];
-  // let toReturn = [...toSort];
+  // var toReturn = [...toSort];
+  let toReturn = [...toSort];
 
   if (sortType === 'newest') {
-    // toReturn = toReturn.reverse();
+    toReturn = toReturn.reverse();
   } else if (sortType === 'a') {
     toReturn = toReturn.sort();
   } else if (sortType === 'z') {
