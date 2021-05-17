@@ -43,6 +43,7 @@ about: A template PR for contributing to the /logic folder
   - [ ] There is no logic (loops, conditionals, ...) in the test cases
   - [ ] Side-effects are tested, if necessary
   - [ ] Tricky edge cases are tested (extra credit)
+- [ ] spelling is clear and understandable
 
 ## It Does Not
 

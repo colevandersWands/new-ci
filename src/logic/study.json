@@ -9,6 +9,7 @@
     "debug": true,
     "environment": true,
     "eslint": true,
-    "save": true
+    "save": true,
+    "table": true
   }
 }
