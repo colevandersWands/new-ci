@@ -8,7 +8,7 @@ on:
     branches: [master, main]
 
 jobs:
-  document-and-test:
+  document:
     runs-on: ubuntu-18.04
 
     strategy:
