@@ -5,7 +5,7 @@
     "document": "node ./dev-scripts/document.js",
     "test": "node --experimental-vm-modules node_modules/.bin/jest",
     "lint": "eslint  --format=codeframe",
-    "lint:ci": "eslint --max-warnings=0 --format=codeframe ./src --ext .js",
+    "lint:ci": "eslint --max-warnings=1 --format=codeframe ./src --ext .js",
     "format": "prettier"
   },
   "type": "module",
