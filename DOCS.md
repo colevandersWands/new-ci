@@ -25,6 +25,13 @@
 
 ---
 
+- do not need tests
+- can import and use
+  - data
+  - logic
+- can read & write the dom
+- can log important information to the console
+
 ---
 
 ### [./src/handlers/input-word.js](./src/handlers/input-word.js?study)

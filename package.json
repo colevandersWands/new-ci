@@ -5,6 +5,7 @@
     "document": "node ./dev-scripts/document.js",
     "test": "node --experimental-vm-modules node_modules/.bin/jest",
     "lint": "eslint  --format=codeframe",
+    "lint:ci": "eslint  --format=codeframe src",
     "format": "prettier"
   },
   "type": "module",

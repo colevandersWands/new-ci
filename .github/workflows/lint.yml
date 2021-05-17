@@ -14,4 +14,4 @@ jobs:
 
     steps:
       - run: npm install
-      - run: npm run lint -- src
+      - run: npm run lint:ci
