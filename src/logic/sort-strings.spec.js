@@ -58,10 +58,9 @@ describe('sorts the strings in an array in different ways', () => {
       expect(sortStrings(['e', 'zzz', 'ee'], 'longest')).toEqual(expected);
     });
     it('4 items', () => {
+      const actual = sortStrings(['e', 'bbb', 'eeee', 'ee'], 'longest');
       const expected = ['eeee', 'bbb', 'ee', 'e'];
-      expect(sortStrings(['e', 'bbb', 'eeee', 'ee'], 'longest')).toEqual(
-        expected
-      );
+      expect(actual).toEqual(expected);
     });
   });
   describe('shortest to longest', () => {
@@ -73,10 +72,9 @@ describe('sorts the strings in an array in different ways', () => {
       expect(sortStrings(['e', 'zzz', 'ee'], 'shortest')).toEqual(expected);
     });
     it('4 items', () => {
+      const actual = sortStrings(['e', 'zzz', 'eeee', 'ee'], 'shortest');
       const expected = ['e', 'ee', 'zzz', 'eeee'];
-      expect(sortStrings(['e', 'zzz', 'eeee', 'ee'], 'shortest')).toEqual(
-        expected
-      );
+      expect(actual).toEqual(expected);
     });
   });
   describe('default parameters', () => {
