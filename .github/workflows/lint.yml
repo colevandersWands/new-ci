@@ -1,17 +1,14 @@
 # https://github.com/marketplace/actions/run-eslint
 
-name: Lint CI
+name: Linting CI
 on:
   pull_request:
     branches: [master, main]
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x]
-
     steps:
-      - run: npm install
-      - run: npm run lint:ci
+      - name: Install modules
+        run: npm install
+      - name: Run ESLint
+        run: eslint ./src --ext .js

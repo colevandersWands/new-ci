@@ -1,6 +1,6 @@
 # https://joelhooks.com/jest-and-github-actions
 
-name: Tests CI
+name: Testing CI
 on:
   pull_request:
     branches: [master, main]
