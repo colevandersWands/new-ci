@@ -1,0 +1,31 @@
+{
+  "name": "favorite-word",
+  "version": "1.0.0",
+  "scripts": {
+    "document": "node ./dev-scripts/document.js",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest",
+    "lint": "eslint  --format=codeframe",
+    "format": "prettier"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackyourfuturebelgium/favorite-word.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackyourfuturebelgium/favorite-word/issues"
+  },
+  "homepage": "https://github.com/hackyourfuturebelgium/favorite-word",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^32.3.1",
+    "eslint-plugin-spellcheck": "0.0.17",
+    "jsdoc-to-markdown": "^6.0.1",
+    "prettier": "^2.2.1",
+    "jest": "^26.6.3"
+  }
+}
