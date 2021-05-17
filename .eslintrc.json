@@ -1,5 +1,5 @@
 {
-  "plugins": ["jsdoc", "spellcheck"],
+  "plugins": ["jsdoc"],
   "parserOptions": {
     "sourceType": "module",
     "ecmaVersion": 12
